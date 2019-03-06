@@ -3,6 +3,7 @@ import discord
 import random
 import openpyxl
 import datetime
+import os
 
 client = discord.Client()
 
@@ -124,5 +125,5 @@ async def on_message(message):
 
 
 
-
-client.run('NTE0MDUyMDgyMjIzOTM5NTk3.DuKjsA.XZMJJVy_jJuBdH9mw4uZS8gKTUE')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
