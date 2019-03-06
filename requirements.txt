@@ -1,2 +1,5 @@
 discord.py==0.16.12
-openpyxl.py==19.0.1
+openpyxl
+asyncio
+random
+datetime
