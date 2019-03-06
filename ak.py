@@ -66,7 +66,7 @@ async def on_message(message):
             await client.send_message(message.channel, person[i] + "♥" + teamname[i])        
                                   
     if message.content.startswith('해병복무신조'):
-        file = open("해병복무신조.txt")
+        file = open("해병복무신조.")
         await client.send_message(message.channel,file.read())
         file.close()
 
